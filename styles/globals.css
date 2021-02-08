@@ -1,0 +1,112 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+/* sign-in */
+
+
+.signin-form {
+  background-color: antiquewhite;
+  font-size: 1.4rem;
+  
+ 
+}
+
+.linie {
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+}
+
+.signin-input {
+  display: flex;
+  border: none;
+  padding: 1rem 2rem;
+  width: 60%;
+  height: 1rem;
+  border: 1px solid black;
+  margin-top: .5rem;
+  margin-left: .5rem;
+  font-weight: 500;
+}
+
+.signin-inP {
+  margin-top: .5rem;
+  margin-left: .5rem;
+  width: 3rem;
+  height: 2rem;
+  border: 1px solid black;
+  font-weight: 500;
+  
+}
+
+.signin-btn {
+  width: 100%;
+  height: 3rem;
+  color: #000;
+  background-color: rgb(112, 201, 134);
+  border: 1px solid blanchedalmond ;
+  cursor: pointer;
+  border: 1px solid black;
+  
+}
+
+.container_app {
+  
+    background-color: antiquewhite ;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  
+.baner {
+    
+  }  
+
+.meciuri_prono {
+
+  display: flex;
+  
+  background-color: antiquewhite;
+  
+}
+
+.lista_meciuri {
+  background-color: antiquewhite;
+  padding: 3rem; 
+  color: rgb(27, 75, 39) ;
+}
+
+.prono {
+ 
+  padding: 3rem;
+  background-color: antiquewhite;
+  list-style: none;
+  color: rgb(112, 201, 134);
+}
+
+li {
+   background-color: antiquewhite;
+   padding: .2rem;
+   color: rgb(54, 139, 75);
+   font-weight: 500;
+}
+
